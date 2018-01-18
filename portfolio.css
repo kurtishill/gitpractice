@@ -1,0 +1,67 @@
+body {
+	background-color: green;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+hr {
+	width: 20%;
+	position: relative;
+	margin-left: 0px;
+	border-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+	background-color: darkgreen;
+}
+
+p {
+	font-family: sans-serif;
+	color: white;
+}
+
+section {
+	display: flex;
+}
+
+aside {
+	flex: 1;
+}
+
+article {
+	flex: 4;
+}
+
